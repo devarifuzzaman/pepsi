@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.main {
+    background-color: teal;
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    margin: 0px 60px;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    height: 80px;
+    padding: 20px 0px;
+    margin-bottom: 40px;
+
+}
+
+.header img {
+    height: 60px;
+
+}
+
+.header h2 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 20px;
+
+}
+
+.header .nav {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    margin: 0 50px;
+}
+
+.header .nav ul {
+    list-style: none;
+}
+
+.header .nav ul .nav-item {
+    display: inline;
+    padding: 5px;
+}
+
+.header .nav ul .nav-item a {
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin: 0 10px;
+}
+
+.header .nav ul .nav-item a:hover  {
+color: lightgray;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.main-content .content h2 {
+    font-size: 32px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.main-content .content p {
+    font-size: 25px;
+    color: #fff;
+
+}
+
+.main-content .content-img img {
+    width: 100%;
+}
+
+.content-change {
+    width: 100%;
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+}
+
+.content-change a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.content-change img {
+    width: auto;
+    height: 50px;
+}
+
+.content-change a:hover img {
+    transform: translateY(-20px);
+    transition: .5s;
+
+}
